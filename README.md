@@ -63,7 +63,7 @@ First install the following on your laptop
 First Step is to run `ngrok` and find out the URL its assigned to you
 
 ```bash
-./ngrok http -host-header=rewrite  localhost:8080
+ngrok http --host-header=rewrite  localhost:8080
 ```
 
 ![images/ngrok.png](images/ngrok.png)
